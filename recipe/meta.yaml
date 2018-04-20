@@ -1,7 +1,7 @@
 {% set name = "pytest-astropy" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 {% set git_url = "https://github.com/astropy/pytest-astropy" %}
-{% set sha256 = "ced990fe65145ba87a9d0ce16b9d0c162f0c339b47c04d51f54aa382acb55425" %}
+{% set sha256 = "0e8a20f4704fad19cb5d83b99a674069173099701c3f490ac7213e60c42c8f62" %}
 
 package:
   name: {{ name|lower }}
