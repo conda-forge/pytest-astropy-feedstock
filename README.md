@@ -17,12 +17,15 @@ testing packages that are not affiliated with the Astropy project.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-astropy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pytest-astropy-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-astropy-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-astropy-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-astropy/badges/version.svg)](https://anaconda.org/conda-forge/pytest-astropy)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-astropy/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-astropy)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pytest--astropy-green.svg)](https://anaconda.org/conda-forge/pytest-astropy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pytest-astropy.svg)](https://anaconda.org/conda-forge/pytest-astropy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pytest-astropy.svg)](https://anaconda.org/conda-forge/pytest-astropy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pytest-astropy.svg)](https://anaconda.org/conda-forge/pytest-astropy) |
 
 Installing pytest-astropy
 =========================
