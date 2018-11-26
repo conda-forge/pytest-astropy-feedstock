@@ -21,17 +21,12 @@ requirements:
   build:
     - python
     - pip
-    - pytest >=3.1
-    - pytest-openfiles >=0.3
-    - pytest-remotedata >=0.3.0
-    - pytest-doctestplus >=0.1.3
-    - pytest-arraydiff >=0.1
   run:
     - python
     - pytest >=3.1
-    - pytest-openfiles >=0.3
-    - pytest-remotedata >=0.3.0
-    - pytest-doctestplus >=0.1.3
+    - pytest-openfiles >=0.3.1
+    - pytest-remotedata >=0.3.1
+    - pytest-doctestplus >=0.2.0
     - pytest-arraydiff >=0.1
 
 test:
