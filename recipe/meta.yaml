@@ -29,6 +29,7 @@ requirements:
     - pytest-doctestplus >=0.2.0
     - pytest-arraydiff >=0.1
     - pytest-astropy-header >=0.1
+    - hypothesis
 
 test:
   imports:
