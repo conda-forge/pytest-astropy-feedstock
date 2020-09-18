@@ -1,7 +1,7 @@
 {% set name = "pytest-astropy" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 {% set git_url = "https://github.com/astropy/pytest-astropy" %}
-{% set sha256 = "0e383262b2f9c2ef456cdd612cb0c485430a6a2530e3d5662e8930702e0bdd44" %}
+{% set sha256 = "619800eb2cbf64548fbea25268efe7c6f6ae206cb4825f34abd36f27bcf946a2" %}
 
 package:
   name: {{ name|lower }}
@@ -19,17 +19,23 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
+    - setuptools
+    - setuptools_scm
   run:
-    - python
-    - pytest >=3.1
-    - pytest-openfiles >=0.3.1
-    - pytest-remotedata >=0.3.1
+    - python >=3.6
+    - pytest >=4.6
     - pytest-doctestplus >=0.2.0
+    - pytest-remotedata >=0.3.1
+    - pytest-openfiles >=0.3.1
+    - pytest-astropy-header >=0.1.2
     - pytest-arraydiff >=0.1
-    - pytest-astropy-header >=0.1
-    - hypothesis
+    - pytest-filter-subpackage >=0.1
+    - pytest-cov >=2.0
+    - pytest-mock >=2.0
+    - attrs >=19.2.0
+    - hypothesis >=5.1
 
 test:
   imports:
