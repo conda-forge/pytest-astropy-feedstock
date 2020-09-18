@@ -19,12 +19,12 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python
+    - python >=3.6
     - pytest >=4.6
     - pytest-doctestplus >=0.2.0
     - pytest-remotedata >=0.3.1
