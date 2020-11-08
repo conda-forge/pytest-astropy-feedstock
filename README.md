@@ -5,9 +5,13 @@ Home: https://github.com/astropy/pytest-astropy
 
 Package license: BSD
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-astropy-feedstock/blob/master/LICENSE.txt)
 
 Summary: Meta-package containing dependencies for testing Astropy
+
+Development: https://github.com/astropy/pytest-astropy
+
+Documentation: https://github.com/astropy/pytest-astropy
 
 This is a meta-package that pulls in the dependencies that are used by
 astropy and some affiliated packages for testing. It can also be used for
