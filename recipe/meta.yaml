@@ -46,7 +46,7 @@ test:
 
 about:
   home: {{ git_url }}
-  license: BSD
+  license: BSD-3-Clause
   license_file: LICENSE.rst
   summary: Meta-package containing dependencies for testing Astropy
   description: |
