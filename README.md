@@ -1,11 +1,11 @@
-About pytest-astropy
-====================
+About pytest-astropy-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-astropy-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/astropy/pytest-astropy
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-astropy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Meta-package containing dependencies for testing Astropy
 
@@ -152,7 +152,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@astrofrog-conda-forge](https://github.com/astrofrog-conda-forge/)
+* [@astrofrog](https://github.com/astrofrog/)
 * [@drdavella](https://github.com/drdavella/)
 * [@mwcraig](https://github.com/mwcraig/)
 
