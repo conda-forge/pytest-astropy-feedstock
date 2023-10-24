@@ -40,7 +40,6 @@ test:
   imports:
     - pytest_remotedata
     - pytest_doctestplus
-    - pytest_openfiles
     - pytest_arraydiff
 
 about:
